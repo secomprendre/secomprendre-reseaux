@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>(se) comprendre</title>
+  <meta name="description" content="(se) comprendre — Questions, introspection et confiance en soi." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="(se) comprendre" />
+  <meta property="og:description" content="Questions, introspection et confiance en soi." />
+  <meta property="og:image" content="https://reseaux.secomprendre.fr/logo.png" />
+  <meta property="og:url" content="https://reseaux.secomprendre.fr" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --violet: #7846C6;
+      --lilas: #EDE7F6;
+      --lavande: #D0A9E8;
+      --gris: #4A3F55;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: linear-gradient(160deg, #7846C6 0%, #9B6FD4 40%, #C5A8E8 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+      color: var(--gris);
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 32px;
+      padding: 40px 32px;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 16px 64px rgba(69, 39, 160, 0.25);
+      text-align: center;
+    }
+
+    .logo {
+      width: 160px;
+      height: auto;
+      margin: 0 auto 12px;
+      display: block;
+    }
+
+    .slogan {
+      font-family: 'Fraunces', serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--violet);
+      opacity: 0.7;
+      margin-bottom: 12px;
+      letter-spacing: 0.3px;
+    }
+
+    .invite {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--gris);
+      opacity: 0.75;
+      margin-bottom: 28px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .link-btn {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 16px 20px;
+      border-radius: 16px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: all 0.2s ease;
+      border: 1.5px solid transparent;
+    }
+
+    .link-btn:hover { transform: translateY(-2px); }
+
+    .link-btn .icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .link-btn .icon svg { width: 18px; height: 18px; }
+
+    .link-btn .label { flex: 1; text-align: left; }
+
+    .link-btn .arrow { font-size: 16px; opacity: 0.4; }
+
+    /* Instagram — violet très clair */
+    .btn-instagram { background: #F5F2FC; border-color: #E9E2F8; color: #6B4BB0; }
+    .btn-instagram .icon { background: #EDE7F6; }
+    .btn-instagram:hover { background: #EDE7F6; box-shadow: 0 4px 16px rgba(120, 70, 198, 0.12); }
+
+    /* TikTok — violet moyen */
+    .btn-tiktok { background: #EAE3F7; border-color: #D8CEEF; color: #5C3AA8; }
+    .btn-tiktok .icon { background: #DDD5F0; }
+    .btn-tiktok:hover { background: #E2D9F3; box-shadow: 0 4px 16px rgba(120, 70, 198, 0.15); }
+
+    /* Facebook — violet profond */
+    .btn-facebook { background: #E2D9F3; border-color: #CFC3EA; color: #4527A0; }
+    .btn-facebook .icon { background: #D5C9EC; }
+    .btn-facebook:hover { background: #D8CDF0; box-shadow: 0 4px 16px rgba(120, 70, 198, 0.18); }
+
+    .footer {
+      margin-top: 28px;
+      font-size: 12px;
+      color: var(--violet);
+      opacity: 0.45;
+      font-weight: 400;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="logo.png" alt="(se) comprendre" class="logo" />
+    <p class="slogan">Introspection & Connexion</p>
+    <p class="invite">Retrouve (se) comprendre sur les réseaux</p>
+
+    <div class="links">
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/secomprendre.fr/" target="_blank" rel="noopener" class="link-btn btn-instagram">
+        <span class="icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="20" height="20" rx="5" stroke="#6B4BB0" stroke-width="2"/>
+            <circle cx="12" cy="12" r="4" stroke="#6B4BB0" stroke-width="2"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="#6B4BB0"/>
+          </svg>
+        </span>
+        <span class="label">Instagram</span>
+        <span class="arrow">→</span>
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/secomprendre/" target="_blank" rel="noopener" class="link-btn btn-facebook">
+        <span class="icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="2" width="20" height="20" rx="5" stroke="#4527A0" stroke-width="2"/>
+            <path d="M13 21V13H15.5L16 10H13V8.5C13 7.67 13.17 7 14.5 7H16V4.3C15.7 4.21 14.7 4 13.5 4C11.3 4 10 5.26 10 7.7V10H8V13H10V21" stroke="#4527A0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="label">Facebook</span>
+        <span class="arrow">→</span>
+      </a>
+
+      <!-- TikTok -->
+      <a href="https://www.tiktok.com/@secomprendre.fr" target="_blank" rel="noopener" class="link-btn btn-tiktok">
+        <span class="icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3Z" stroke="#5C3AA8" stroke-width="2"/>
+            <path d="M10 12C8.34 12 7 13.34 7 15C7 16.66 8.34 18 10 18C11.66 18 13 16.66 13 15V6C13.33 7 14.4 8 16 8" stroke="#5C3AA8" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="label">TikTok</span>
+        <span class="arrow">→</span>
+      </a>
+
+    </div>
+
+    <p class="footer">(se) comprendre · 2026</p>
+  </div>
+</body>
+</html>
